@@ -1,15 +1,13 @@
-# CvGenerator
+# SimpleCV
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cv_generator`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+SimpleCV creates beautiful CVs simple and fast with just a config file! Example configuration files can be found in examples folder.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cv_generator'
+gem 'simple_cv'
 ```
 
 And then execute:
@@ -18,24 +16,39 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cv_generator
+    $ gem install simple_cv
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+cv = SimpleCV::Basic.new(config_path: "path/to/config_file.json")
+
+# Will render file to current location
+cv.render_file
+
+# Will render file to a specific location with a specific filename
+cv.render_file(path: "path/to/output", filename: "file")
+```
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Further planned functionalities:
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+- Dynamin layout calculations depending on content for better look
+- More icons for contact topics
+- Dynamic calculation for size of skill bars depending on skill name lengths
+- Display page count, when experience / education section reaches second page
+- Different layout templates
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cv_generator.
-
+Bug reports and pull requests are welcome on GitHub at [https://github.com/freder1c/simple_cv](https://github.com/freder1c/simple_cv).
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+Mail Icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](www.flaticon.com)  
+Location Icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](www.flaticon.com)  
+Globe made by [Designerz Base](http://www.finest.graphics) from [www.flaticon.com](www.flaticon.com)  
+Phone made by [Freepik](http://www.freepik.com) from [www.flaticon.com](www.flaticon.com)

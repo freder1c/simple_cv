@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cv_generator/version'
+require 'simple_cv/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "cv_generator"
-  spec.version       = CvGenerator::VERSION
+  spec.name          = "simple_cv"
+  spec.version       = SimpleCV::VERSION
   spec.authors       = ["Frederic Walch"]
   spec.email         = ["fredericwalch@me.com"]
 
@@ -30,8 +30,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "prawn", "2.2.2"
+  spec.add_dependency "prawn-svg", "0.27.1"
+  spec.add_dependency "hashugar", "1.0.1"
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry-nav"
 end

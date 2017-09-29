@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "cv_generator"
+require "simple_cv"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

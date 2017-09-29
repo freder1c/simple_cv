@@ -1,0 +1,79 @@
+title: AwesomeCV
+author: Suzanne Shaw
+profile:
+  name: "Suzanne\nShaw"
+  job: Art Director
+  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+contact:
+  -
+    - phone
+    - (916)-209-3856
+  -
+    - email
+    - suzanne.showh@example.com
+  -
+    - website
+    - https://example.com
+  -
+    - address
+    - Santa Monica, USA
+
+skills:
+  -
+    - English
+    - 100
+  -
+    - French
+    - 80
+  -
+    - Japanese
+    - 40
+  -
+    -
+    -
+  -
+    - Adobe Photoshop
+    - 90
+  -
+    - Wordpress
+    - 70
+  -
+    - Joomla
+    - 80
+  -
+    - Word
+    - 95
+  -
+    - Excel
+    - 95
+
+experience:
+  -
+    job: Art Director
+    company: Creative Lab
+    location: Santa Monica
+    date: 2016 - Present
+    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  -
+    job: Senior UI & UX Designer
+    company: Creative Media
+    location: Santa Monica
+    date: 2015 - 2016
+    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+  -
+    job: Junior UI & UX Designer
+    company: Creative Media
+    location: Santa Monica
+    date: 2012 - 2015
+    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+education:
+  -
+    subject: Master in Media
+    institution: Media University
+    date: 2013 - 2015
+  -
+    subject: Bachelor of Fine Arts
+    institution": University of Arts
+    date: 2010 - 2013
