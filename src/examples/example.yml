@@ -1,0 +1,61 @@
+title: SimpleCV
+author: Suzanne Shaw
+profile:
+  name: "Suzanne Shaw"
+  job: Art Director
+contact:
+  address: Santa Monica, USA
+  phone: (916)-209-3856
+  email: suzanne.showh@example.com
+  web: https://example.com
+intro:
+  text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  receiver:
+    name": John Doe
+    position": Managing Director
+experience:
+  -
+    job: Art Director
+    company: Creative Lab
+    location: Santa Monica
+    date: 2016 - Present
+    description_list:
+      - Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+      - Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+      - At vero eos et accusam et justo duo dolores et ea rebum
+      - Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  -
+    job: Senior UI & UX Designer
+    company: Creative Media
+    location: Santa Monica
+    date: 2015 - 2016
+    description_list:
+      - Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+      - Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+      - At vero eos et accusam et justo duo dolores et ea rebum
+      - Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  -
+    job: Junior UI & UX Designer
+    company: Creative Media
+    location: Santa Monica
+    date: 2012 - 2015
+    description_list:
+      - Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+      - Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+      - At vero eos et accusam et justo duo dolores et ea rebum
+      - Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+education:
+  -
+    subject: Master in Media
+    institution: Media University
+    date: 2013 - 2015
+  -
+    subject: Bachelor of Fine Arts
+    institution: University of Arts
+    date: 2010 - 2013
+certification:
+  -
+    subject: AWS Certified Cloud Practitioner
+    institution: Amazon Web Services (AWS)
+    date: Jan 2020
+    expiration: Jan 2020 - Jan 2023

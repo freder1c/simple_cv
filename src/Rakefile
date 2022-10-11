@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+require "bundler/gem_tasks"
+require "rake"
+
+desc "Ruby console with loaded env"
+task console: :environment do
+  require "irb"
+  require "lib/simple_cv.rb"
+
+  ARGV.clear
+  IRB.start
+end

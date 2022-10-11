@@ -32,12 +32,26 @@ cv.render_file(path: "path/to/output", filename: "file")
 
 ## Development
 
+To build initial container run:
+
+```
+make build
+```
+
+To start container in development mode:
+
+```
+make dev
+```
+
+To run tests:
+
+```
+make tests
+```
+
 Further planned functionalities:
 
-- Dynamin layout calculations depending on content for better look
-- More icons for contact topics
-- Dynamic calculation for size of skill bars depending on skill name lengths
-- Display page count, when experience / education section reaches second page
 - Different layout templates
 
 ## Contributing
@@ -47,8 +61,3 @@ Bug reports and pull requests are welcome on GitHub at [https://github.com/frede
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Mail Icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](www.flaticon.com)  
-Location Icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](www.flaticon.com)  
-Globe made by [Designerz Base](http://www.finest.graphics) from [www.flaticon.com](www.flaticon.com)  
-Phone made by [Freepik](http://www.freepik.com) from [www.flaticon.com](www.flaticon.com)
