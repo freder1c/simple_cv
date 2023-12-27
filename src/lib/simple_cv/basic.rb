@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "simple_cv/layout"
+require "lib/simple_cv/layout"
 require "json"
 require "yaml"
 

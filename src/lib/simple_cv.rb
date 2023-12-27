@@ -3,8 +3,8 @@
 require "prawn"
 require "prawn/table"
 
-require "simple_cv/version"
-require "simple_cv/basic"
+require "lib/simple_cv/version"
+require "lib/simple_cv/basic"
 
 module SimpleCV
 end

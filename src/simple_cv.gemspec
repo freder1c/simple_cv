@@ -1,7 +1,8 @@
 # coding: utf-8
-lib = File.expand_path("../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "simple_cv/version"
+
+$LOAD_PATH.unshift(".")
+
+require "lib/simple_cv/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "simple_cv"

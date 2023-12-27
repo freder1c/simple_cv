@@ -3,6 +3,11 @@
 require "bundler/gem_tasks"
 require "rake"
 
+desc "Load environment"
+task :environment do
+  $LOAD_PATH.unshift(".")
+end
+
 desc "Ruby console with loaded env"
 task console: :environment do
   require "irb"
